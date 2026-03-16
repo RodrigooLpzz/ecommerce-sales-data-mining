@@ -1,0 +1,10 @@
+Homework #5 - Week 9
+
+This week I worked with correlation and linear regression to understand the relationship between some variables in this dataset
+
+First I calculated the correlation between price and total revenue, quantity sold and total revenue, and also between price and quantity sold. I used the Pearson correlation, which is the default method in pandas. The correlation between price and revenue was around 0.71 so it shows a positive relationship. The correlation between quantity sold and revenue was around 0.59 which also means there is a positive relationship. The correlation between price and quantity sold was almost zero there is basically no relationship
+
+After that I created a simple linear regression model using price as the independent variable and total revenue as the dependent variable. The r2 score of this model was around 0.50 means price alone explains about half of the changes in total revenue
+
+Then I created a multiple linear regression model using both price and quantity sold as independent variables. The r2 score increased to around 0.85 using both variables together explains the revenue much better than using only one
+
