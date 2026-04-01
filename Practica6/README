@@ -1,0 +1,7 @@
+Homework #6 - Week 10
+
+I worked with K nearest neighbor to try to classify data using different variables from the dataset. First I made a function to split the data into train and test and also scale it because knn can be affected by big numbers. After that I tested different values of k from 1 to 20 to see which one works better, using cross validation to get the error and then I used the best k
+
+I tried different combinations like price, quantity sold, discount percent, rating and review count to see if adding more columns helps. In most cases the accuracy was low around 0.17 so the model is not good to classify product category
+
+Finally I changed the target to something easier, I created a label for rating Good or bad. With this the accuracy improved a little but still not very strong, so I think this happens because the dataset is very balanced and also synthetic its hard to find patterns
