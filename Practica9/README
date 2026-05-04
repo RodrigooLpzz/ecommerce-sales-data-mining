@@ -1,0 +1,5 @@
+Homework #9 - Week 14
+
+In this practice I created a word cloud but the dataset doesnt have real text like reviews or product names, instead I used the categorical columns I have product_category, payment_method and customer_region and i repeated each word by the number of times it appears in the csv so the cloud reflects the frequency
+
+The dataset is very balanced each category appears the same ammount of times. There is not one word that dominates the cloud, about what I learned is how to use the wordcloud library and how to prepare the text data
