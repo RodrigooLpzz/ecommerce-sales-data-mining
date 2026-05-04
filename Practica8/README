@@ -1,0 +1,7 @@
+Homework #8 - Week 13
+
+For this homework I used linear regression to forecast the revenue. I grouped the data by month to have the time series, I created a numeric column because the model doesnt understand dates, and then I predicted the revenue for the last months to test the model and also for the future 6 months
+
+The R2 was low because the revenue stays almost the same in every month, it doesnt have a trend going up or down. I think the dataset its too balanced for this type of forecast because if every month its similar the model just predicts a flat line
+
+What I learned is how to prepare a time series for linear regression, also I understand why this method works better when there is a real trend in the data
